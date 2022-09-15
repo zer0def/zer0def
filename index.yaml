@@ -1,0 +1,73 @@
+apiVersion: v1
+entries:
+  ejabberd:
+  - apiVersion: v1
+    appVersion: "18.03"
+    created: "2022-09-15T19:23:55.349744019+02:00"
+    description: ejabberd Community Server - Single node
+    digest: 4b3849d0b36898d8461e3d07b5bb808f31a2cdfdd10b5e04b832dd0a2fe11a9c
+    name: ejabberd
+    urls:
+    - https://zer0def.github.io/charts/blobs/ejabberd-0.1.1.tgz
+    version: 0.1.1
+  patroni:
+  - apiVersion: v1
+    appVersion: 1.5-p5
+    created: "2022-09-15T19:23:55.361587999+02:00"
+    dependencies:
+    - condition: etcd.deployChart
+      name: etcd
+      repository: https://charts.helm.sh/incubator
+      version: 0.6.2
+    - condition: zookeeper.deployChart
+      name: zookeeper
+      repository: https://charts.helm.sh/incubator
+      version: 1.0.0
+    - condition: consul.deployChart
+      name: consul
+      repository: https://charts.helm.sh/stable
+      version: 3.6.1
+    digest: b740254a99e97ce787c6afd6c62403f92fe9d6354680f0b933d227ba4ab2f831
+    home: https://github.com/zalando/patroni
+    name: patroni
+    sources:
+    - https://github.com/zalando/patroni
+    - https://github.com/zalando/spilo
+    urls:
+    - https://zer0def.github.io/charts/blobs/patroni-0.16.3.tgz
+    version: 0.16.3
+  prosody:
+  - apiVersion: v1
+    appVersion: 0.9.12
+    created: "2022-09-15T19:23:55.363960472+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 1b8a8866ce78b94702432a923e2bfda205a2e381e8d9fd59067c57669b530c4d
+    name: prosody
+    urls:
+    - https://zer0def.github.io/charts/blobs/prosody-0.1.0.tgz
+    version: 0.1.0
+  redpanda:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2022-09-15T19:23:55.367114668+02:00"
+    deprecated: true
+    description: Redpanda is the real-time engine for modern apps.
+    digest: 49d2975b1d062fbea41ea1c7f1184dac27cabac103f7dfa4bb598f410f73b3c8
+    name: redpanda
+    sources:
+    - https://github.com/vectorizedio/helm-charts
+    type: application
+    urls:
+    - https://zer0def.github.io/charts/blobs/redpanda-1.0.6.tgz
+    version: 1.0.6
+  seaweedfs:
+  - apiVersion: v1
+    appVersion: "3.27"
+    created: "2022-09-15T19:23:55.369469187+02:00"
+    description: SeaweedFS
+    digest: dd34e0ce8882b4fa516483f102e23afdbb703875f33ef330059afe8ed8f0d858
+    name: seaweedfs
+    urls:
+    - https://zer0def.github.io/charts/blobs/seaweedfs-3.27.tgz
+    version: "3.27"
+generated: "2022-09-15T19:23:55.347503966+02:00"
