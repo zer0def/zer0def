@@ -94,7 +94,7 @@ auth_query = SELECT uname, phash from public.user_lookup($1);
 pool_mode = session
 max_client_conn = 1000
 default_pool_size = 200
-ignore_startup_parameters = extra_float_digits
+ignore_startup_parameters = extra_float_digits,search_path
 server_fast_close = 1
 
 # Log settings

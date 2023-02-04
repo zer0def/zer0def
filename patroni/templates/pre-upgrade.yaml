@@ -263,7 +263,7 @@ spec:
             command:
             - "/bin/sh"
             - "-xec"
-            - "pidof initdb || pidof pg_basebackup || pidof postgres"
+            - "pidof initdb || pidof pg_basebackup || pidof postgres || pidof wal-g"
 {{- end }}
         readinessProbe:
           exec:

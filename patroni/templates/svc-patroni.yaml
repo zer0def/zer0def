@@ -16,6 +16,9 @@ spec:
     port: 5432
     targetPort: postgresql
     protocol: TCP
+{{- if .Values.extraSvcPorts }}
+  {{- toYaml .Values.extraSvcPorts | nindent 2 }}
+{{- end }}
 ---
 # headless service to manage Endpoints object whose annotations serve as cluster state
 apiVersion: v1

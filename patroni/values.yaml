@@ -148,6 +148,7 @@ serviceAccount:
 
 extraInitContainers: []
 extraContainers: []
+extraSvcPorts: []
 
 spiloConfiguration: {}
 
