@@ -8,7 +8,7 @@ entries:
     digest: 4b3849d0b36898d8461e3d07b5bb808f31a2cdfdd10b5e04b832dd0a2fe11a9c
     name: ejabberd
     urls:
-    - https://zer0def.github.io/charts/blobs/ejabberd-0.1.1.tgz
+    - https://zer0def.github.io/zer0def/charts/ejabberd-0.1.1.tgz
     version: 0.1.1
   patroni:
   - apiVersion: v1
@@ -34,7 +34,7 @@ entries:
     - https://github.com/zalando/patroni
     - https://github.com/zalando/spilo
     urls:
-    - https://zer0def.github.io/charts/blobs/patroni-0.16.3.tgz
+    - https://zer0def.github.io/zer0def/charts/patroni-0.16.3.tgz
     version: 0.16.3
   prosody:
   - apiVersion: v1
@@ -44,7 +44,7 @@ entries:
     digest: 1b8a8866ce78b94702432a923e2bfda205a2e381e8d9fd59067c57669b530c4d
     name: prosody
     urls:
-    - https://zer0def.github.io/charts/blobs/prosody-0.1.0.tgz
+    - https://zer0def.github.io/zer0def/charts/prosody-0.1.0.tgz
     version: 0.1.0
   redpanda:
   - apiVersion: v1
@@ -58,7 +58,7 @@ entries:
     - https://github.com/vectorizedio/helm-charts
     type: application
     urls:
-    - https://zer0def.github.io/charts/blobs/redpanda-1.0.6.tgz
+    - https://zer0def.github.io/zer0def/charts/redpanda-1.0.6.tgz
     version: 1.0.6
   seaweedfs:
   - apiVersion: v1
@@ -68,7 +68,7 @@ entries:
     digest: dd34e0ce8882b4fa516483f102e23afdbb703875f33ef330059afe8ed8f0d858
     name: seaweedfs
     urls:
-    - https://zer0def.github.io/charts/blobs/seaweedfs-3.27.tgz
+    - https://zer0def.github.io/zer0def/charts/seaweedfs-3.27.tgz
     version: "3.27"
   thanos:
   - apiVersion: v1
@@ -91,6 +91,6 @@ entries:
     - https://github.com/thanos-io/thanos
     - https://github.com/banzaicloud/banzai-charts/tree/master/thanos
     urls:
-    - https://zer0def.github.io/charts/blobs/thanos-0.4.6.tgz
+    - https://zer0def.github.io/zer0def/charts/thanos-0.4.6.tgz
     version: 0.4.6
 generated: "2022-09-20T15:30:52.440571114+02:00"
